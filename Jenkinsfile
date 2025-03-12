@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', 'https://github.com/nadia-sultana2228/nginx_app.git'
+                 git url: 'https://github.com/nadia-sultana2228/nginx_app.git', branch: 'main'
             }
         }
 
